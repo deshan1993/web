@@ -1,0 +1,142 @@
+body {
+    padding-top: 100px;
+    background: #fff;
+    font-family: 'Roboto-regular', sans-serif;
+    font-weight: 300;
+    color: #454545;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+#logIn{
+    
+    padding-top: 6px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-radius: 10px;
+    border: 0;
+    /* padding: 10px 30px; */
+    color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+
+}
+
+#logInA{
+    
+    padding-top: 15px;
+    padding-bottom: 20px;
+
+}
+
+// p.text-center{
+//     font-size: 15px;
+// }
+
+// div.text-center{
+//     font-size: 15px;
+// }
+
+// p {
+//     font-size: 15px;
+// }
+
+// .media-heading{
+//     font-weight: bold;
+// }
+
+// h3{
+//     font-weight: 600px;
+//     font-size: 24px;
+//     margin-top: 20px;
+// }
+
+// span{
+//     font-size: 15px;
+// }
+
+// button{
+//     font-size: 15px;
+// }
+
+// body {
+//     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+//     font-size: 14px;
+//     line-height: 1.42857143;
+//     /* color: #333; */
+//     background-color: #fff;
+// }
+
+// .form-control {
+//     height: 40px;
+//     font-size: 15px;
+//     font-family: 'Roboto-regular';
+//     color: #323232;
+// }
+
+// .team-member {
+//     padding: 13px;
+//     background: #eeeeee;
+//     border: 2px solid #eeeeee;
+//     transition: border-color 400ms;
+//     -webkit-transition: border-color 400ms;
+// }
+
+.serviceBox{ text-align: center; }
+.serviceBox .service-icon{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    // background: #ff5449; 
+    background: #ff641b;
+    margin-bottom: 25px;
+    font-size: 40px;
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+.serviceBox:hover .service-icon{ transform: scale(1.1); }
+.serviceBox .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #471437;
+    text-transform: uppercase;
+    margin: 0 0 12px 0;
+    position: relative;
+}
+.serviceBox .title:before,
+.serviceBox .title:after{
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #ff5449;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+}
+.serviceBox .title:after{
+    left: auto;
+    right: 40%;
+}
+.serviceBox:hover .title:before{
+    opacity: 1;
+    left: 5%;
+}
+.serviceBox:hover .title:after{
+    opacity: 1;
+    right: 5%;
+}
+.serviceBox .description{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #6f6f6f;
+}
+@media only screen and (max-width:990px){
+    .serviceBox{ margin-bottom: 30px; }
+}

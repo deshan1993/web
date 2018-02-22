@@ -1,0 +1,971 @@
+<header id="header">
+  <nav id="main-menu" class="navbar navbar-default navbar-fixed-top top-nav-collapse" role="banner">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" [routerLink]="['']">
+          <img src="../../assets/home/images/logo.png" alt="logo">
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-right">
+        <ul class="nav navbar-nav">
+          <li class="scroll active">
+            <!-- <a href="#home">Home </a> -->
+            <a [routerLink]="['']">Home </a>
+          </li>
+          <li class="scroll">
+            <a href="#about">About Us </a>
+          </li>
+          <li class="scroll">
+            <a href="#services">Service </a>
+          </li>
+          <li class="scroll">
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li class="scroll">
+            <a href="#meet-team">Team </a>
+          </li>
+          <!-- <li class="scroll">
+            <a href="#pricing">Price</a>
+          </li> -->
+          <!-- <li class="scroll">
+            <a href="#blog"> Blog </a>
+          </li> -->
+          <li class="scroll">
+            <a href="#testimonial"> Testimonial </a>
+          </li>
+          <li class="scroll">
+            <a href="#get-in-touch">Contact</a>
+          </li>
+          <li>
+            <a id="logInA" style="padding-top: 15px;" [routerLink]="['login']">
+              <button id="logIn" class="btn btn-primary" type="submit">Log In</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--/.container-->
+  </nav>
+  <!--/nav-->
+</header>
+<!--/header-->
+
+<section id="main-slider">
+  <div class="owl-carousel">
+    <div class="item" style="background-image: url(../../assets/home/images/bg1.jpg);">
+      <div class="slider-inner">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <div class="carousel-content">
+                <h2>Clean and Flexible Business Template</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  <br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                <a class="btn btn-primary btn-lg" href="#">Find Out More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/.item-->
+    <div class="item" style="background-image: url(../../assets/home/images/bg2.jpg);">
+      <div class="slider-inner">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <div class="carousel-content">
+                <h2>Clean and Flexible Business Template</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  <br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                <a class="btn btn-primary btn-lg" href="#">Find Out More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/.item-->
+  </div>
+  <!--/.owl-carousel-->
+</section>
+<!--/#main-slider-->
+
+<section id="about">
+  <div class="container">
+
+    <div class="section-header">
+      <h2 class="section-title text-center wow fadeInDown">About Us</h2>
+      <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+        <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+    </div>
+
+    <div class="row about-cols">
+
+      <div class="col-md-4 wow fadeInUp">
+        <div class="about-col">
+          <div class="img">
+            <img src="../../assets/home/images/about-mission.jpg" alt="" class="img-fluid">
+            <div class="icon">
+              <i class="ion-ios-speedometer-outline"></i>
+            </div>
+          </div>
+          <h2 class="title">
+            <a href="#">Our Mission</a>
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="about-col">
+          <div class="img">
+            <img src="../../assets/home/images/about-plan.jpg" alt="" class="img-fluid">
+            <div class="icon">
+              <i class="ion-ios-list-outline"></i>
+            </div>
+          </div>
+          <h2 class="title">
+            <a href="#">Our Plan</a>
+          </h2>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae
+            ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="about-col">
+          <div class="img">
+            <img src="../../assets/home/images/about-vision.jpg" alt="" class="img-fluid">
+            <div class="icon">
+              <i class="ion-ios-eye-outline"></i>
+            </div>
+          </div>
+          <h2 class="title">
+            <a href="#">Our Vision</a>
+          </h2>
+          <p>
+            Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione voluptatem sequi
+            nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<!--/#about-->
+
+
+<section id="services">
+  <div class="container">
+
+    <div class="section-header">
+      <h2 class="section-title text-center wow fadeInDown">Our Services</h2>
+      <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+        <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="serviceBox">
+          <div class="service-icon fa fa-globe"></div>
+          <h3 class="title">Web Design</h3>
+          <p class="description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur, deleniti eaque excepturi.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="serviceBox">
+          <div class="service-icon fa fa-home"></div>
+          <h3 class="title">Web Development</h3>
+          <p class="description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur, deleniti eaque excepturi.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="serviceBox">
+          <div class="service-icon fa fa-rocket"></div>
+          <h3 class="title">Web Development</h3>
+          <p class="description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur, deleniti eaque excepturi.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="serviceBox">
+          <div class="service-icon fa fa-pencil"></div>
+          <h3 class="title">Web Development</h3>
+          <p class="description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur, deleniti eaque excepturi.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/.row-->
+  </div>
+  <!--/.container-->
+</section>
+<!--/#services-->
+
+<section id="animated-number">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title text-center wow fadeInDown">Fun Facts</h2>
+      <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+        <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-sm-3 col-xs-6">
+        <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+          <div class="animated-number" data-digit="136800" data-duration="1000"></div>
+          <strong>Lorem Ipsum</strong>
+        </div>
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+          <div class="animated-number" data-digit="1231+" data-duration="1000"></div>
+          <strong>Lorem Ipsum</strong>
+        </div>
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+          <div class="animated-number" data-digit="6000" data-duration="1000"></div>
+          <strong>Lorem Ipsum</strong>
+        </div>
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
+          <div class="animated-number" data-digit="2000" data-duration="1000"></div>
+          <strong>Lorem Ipsum</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--/#animated-number-->
+
+<section id="portfolio">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title text-center wow fadeInDown">OUR Latest Work</h2>
+      <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+        <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+    </div>
+
+    <div class="text-center">
+      <ul class="portfolio-filter">
+        <li>
+          <a class="active" href="#" data-filter="*">All</a>
+        </li>
+        <li>
+          <a href="#" data-filter=".creative">Printing</a>
+        </li>
+        <li>
+          <a href="#" data-filter=".corporate"> Web </a>
+        </li>
+        <li>
+          <a href="#" data-filter=".portfolio">Illustration </a>
+        </li>
+        <li>
+          <a href="#" data-filter=".portfolio">Media </a>
+        </li>
+      </ul>
+      <!--/#portfolio-filter-->
+    </div>
+
+    <div class="portfolio-items">
+      <div class="portfolio-item creative">
+        <div class="portfolio-item-inner">
+          <img class="img-responsive" src="../../assets/home/images/work_1.jpg" alt="">
+          <div class="portfolio-info">
+            <h3>Portfolio Item 1</h3>
+            Lorem Ipsum Dolor Sit
+
+          </div>
+        </div>
+      </div>
+      <!--/.portfolio-item-->
+
+      <div class="portfolio-item corporate portfolio">
+        <div class="portfolio-item-inner">
+          <img class="img-responsive" src="../../assets/home/images/work_2.jpg" alt="">
+          <div class="portfolio-info">
+            <h3>Portfolio Item 2</h3>
+            Lorem Ipsum Dolor Sit
+
+          </div>
+        </div>
+      </div>
+      <!--/.portfolio-item-->
+
+      <div class="portfolio-item creative">
+        <div class="portfolio-item-inner">
+          <img class="img-responsive" src="../../assets/home/images/work_3.jpg" alt="">
+          <div class="portfolio-info">
+            <h3>Portfolio Item 3</h3>
+            Lorem Ipsum Dolor Sit
+
+          </div>
+        </div>
+      </div>
+      <!--/.portfolio-item-->
+
+      <div class="portfolio-item corporate">
+        <div class="portfolio-item-inner">
+          <img class="img-responsive" src="../../assets/home/images/work_4.jpg" alt="">
+          <div class="portfolio-info">
+            <h3>Portfolio Item 4</h3>
+            Lorem Ipsum Dolor Sit
+
+          </div>
+        </div>
+      </div>
+      <!--/.portfolio-item-->
+
+      <div class="portfolio-item creative portfolio">
+        <div class="portfolio-item-inner">
+          <img class="img-responsive" src="../../assets/home/images/work_5.jpg" alt="">
+          <div class="portfolio-info">
+            <h3>Portfolio Item 5</h3>
+            Lorem Ipsum Dolor Sit
+
+          </div>
+        </div>
+      </div>
+      <!--/.portfolio-item-->
+
+      <div class="portfolio-item corporate">
+        <div class="portfolio-item-inner">
+          <img class="img-responsive" src="../../assets/home/images/work_6.jpg" alt="">
+          <div class="portfolio-info">
+            <h3>Portfolio Item 5</h3>
+            Lorem Ipsum Dolor Sit
+
+          </div>
+        </div>
+      </div>
+      <!--/.portfolio-item-->
+
+      <div class="portfolio-item creative portfolio">
+        <div class="portfolio-item-inner">
+          <img class="img-responsive" src="../../assets/home/images/work_7.jpg" alt="">
+          <div class="portfolio-info">
+            <h3>Portfolio Item 7</h3>
+            Lorem Ipsum Dolor Sit
+
+          </div>
+        </div>
+      </div>
+      <!--/.portfolio-item-->
+
+      <div class="portfolio-item corporate">
+        <div class="portfolio-item-inner">
+          <img class="img-responsive" src="../../assets/home/images/work_8.jpg" alt="">
+          <div class="portfolio-info">
+            <h3>Portfolio Item 8</h3>
+            Lorem Ipsum Dolor Sit
+
+          </div>
+        </div>
+      </div>
+      <!--/.portfolio-item-->
+    </div>
+  </div>
+  <!--/.container-->
+</section>
+<!--/#portfolio-->
+
+<section id="meet-team">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title text-center wow fadeInDown">Meet The Team</h2>
+      <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+        <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 col-md-3">
+        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+          <div class="team-img">
+            <img src="../../assets/home/images/team_1.jpg" alt="">
+          </div>
+          <div class="team-info">
+            <h3>Bin Burhan</h3>
+            <span>Co-Founder</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-6 col-md-3">
+        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+          <div class="team-img">
+            <img src="../../assets/home/images/team_2.jpg" alt="">
+          </div>
+          <div class="team-info">
+            <h3>Jane Man</h3>
+            <span>Project Manager</span>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+          <div class="team-img">
+            <img src="../../assets/home/images/team_3.jpg" alt="">
+          </div>
+          <div class="team-info">
+            <h3>Pahlwan</h3>
+            <span>Designer</span>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
+          <div class="team-img">
+            <img src="../../assets/home/images/team_4.jpg" alt="">
+          </div>
+          <div class="team-info">
+            <h3>Nasir uddin</h3>
+            <span>UI/UX</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+</section>
+<!--/#meet-team-->
+
+<section id="pricing">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title text-center wow fadeInDown">Pricing Table</h2>
+      <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+        <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="0ms">
+          <ul class="pricing">
+            <li class="plan-header">
+              <div class="plan-name">
+                Starter Pack
+              </div>
+              <div class="plan-price">
+                $39
+                <span>per month</span>
+              </div>
+
+            </li>
+            <li>1 DOMAIN</li>
+            <li>100GB DISK SPACE</li>
+            <li>UNLIMITED BANDWIDTH</li>
+            <li>SHARED SSL CERTIFICATE</li>
+            <li>10 EMAIL ADDRESS</li>
+            <li>24/7 SUPPORT</li>
+            <li class="plan-purchase">
+              <a class="btn btn-primary" href="#">BUY NOW</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="0ms">
+          <ul class="pricing">
+            <li class="plan-header">
+              <div class="plan-name">
+                Business Pack
+              </div>
+              <div class="plan-price">
+                $65
+                <span>per month</span>
+              </div>
+
+            </li>
+            <li>1 DOMAIN</li>
+            <li>100GB DISK SPACE</li>
+            <li>UNLIMITED BANDWIDTH</li>
+            <li>SHARED SSL CERTIFICATE</li>
+            <li>10 EMAIL ADDRESS</li>
+            <li>24/7 SUPPORT</li>
+            <li class="plan-purchase">
+              <a class="btn btn-primary" href="#">BUY NOW</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="0ms">
+          <ul class="pricing">
+            <li class="plan-header">
+              <div class="plan-name">
+                Pro Pack
+              </div>
+              <div class="plan-price">
+                $99
+                <span>per month</span>
+              </div>
+
+            </li>
+            <li>1 DOMAIN</li>
+            <li>100GB DISK SPACE</li>
+            <li>UNLIMITED BANDWIDTH</li>
+            <li>SHARED SSL CERTIFICATE</li>
+            <li>10 EMAIL ADDRESS</li>
+            <li>24/7 SUPPORT</li>
+            <li class="plan-purchase">
+              <a class="btn btn-primary" href="#">BUY NOW</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </div>
+</section>
+<!--/#pricing-->
+
+
+
+<section id="blog">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title text-center wow fadeInDown">Latest Blogs</h2>
+      <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+        <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+    </div>
+
+    <div class="row">
+      <div id="owl-example" class="owl-carousel">
+        <div class="text-center item">
+          <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
+            <article>
+              <header class="entry-header">
+                <div class="entry-thumbnail">
+                  <img src="../../assets/home/images/blog1.jpg" alt="">
+
+                </div>
+                <div class="entry-date">25 November 2014</div>
+                <h2 class="entry-title">
+                  <a href="#">Lorem ipsum dolor sit amet</a>
+                </h2>
+              </header>
+
+              <div class="entry-content">
+                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.</P>
+                <a class="btn btn-primary" href="#">BUY NOW</a>
+              </div>
+
+
+            </article>
+          </div>
+        </div>
+        <div class="text-center item">
+          <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
+            <article>
+              <header class="entry-header">
+                <div class="entry-thumbnail">
+                  <img src="../../assets/home/images/blog2.jpg" alt="">
+
+                </div>
+                <div class="entry-date">25 November 2014</div>
+                <h2 class="entry-title">
+                  <a href="#">Lorem ipsum dolor sit amet</a>
+                </h2>
+              </header>
+
+              <div class="entry-content">
+                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.</P>
+                <a class="btn btn-primary" href="#">BUY NOW</a>
+              </div>
+
+
+            </article>
+          </div>
+        </div>
+        <div class="text-center item">
+          <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
+            <article>
+              <header class="entry-header">
+                <div class="entry-thumbnail">
+                  <img src="../../assets/home/images/blog3.jpg" alt="">
+
+                </div>
+                <div class="entry-date">25 November 2014</div>
+                <h2 class="entry-title">
+                  <a href="#">Lorem ipsum dolor sit amet</a>
+                </h2>
+              </header>
+
+              <div class="entry-content">
+                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.</P>
+                <a class="btn btn-primary" href="#">BUY NOW</a>
+              </div>
+
+
+            </article>
+          </div>
+        </div>
+
+        <div class="text-center item">
+          <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
+            <article>
+              <header class="entry-header">
+                <div class="entry-thumbnail">
+                  <img src="../../assets/home/images/blog1.jpg" alt="">
+
+                </div>
+                <div class="entry-date">25 November 2014</div>
+                <h2 class="entry-title">
+                  <a href="#">Lorem ipsum dolor sit amet</a>
+                </h2>
+              </header>
+
+              <div class="entry-content">
+                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.</P>
+                <a class="btn btn-primary" href="#">BUY NOW</a>
+              </div>
+
+
+            </article>
+          </div>
+        </div>
+        <div class="text-center item">
+          <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
+            <article>
+              <header class="entry-header">
+                <div class="entry-thumbnail">
+                  <img src="../../assets/home/images/blog2.jpg" alt="">
+
+                </div>
+                <div class="entry-date">25 November 2014</div>
+                <h2 class="entry-title">
+                  <a href="#">Lorem ipsum dolor sit amet</a>
+                </h2>
+              </header>
+
+              <div class="entry-content">
+                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.</P>
+                <a class="btn btn-primary" href="#">BUY NOW</a>
+              </div>
+
+
+            </article>
+          </div>
+        </div>
+        <div class="text-center item">
+          <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
+            <article>
+              <header class="entry-header">
+                <div class="entry-thumbnail">
+                  <img src="../../assets/home/images/blog3.jpg" alt="">
+
+                </div>
+                <div class="entry-date">25 November 2014</div>
+                <h2 class="entry-title">
+                  <a href="#">Lorem ipsum dolor sit amet</a>
+                </h2>
+              </header>
+
+              <div class="entry-content">
+                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.</P>
+                <a class="btn btn-primary" href="#">BUY NOW</a>
+              </div>
+
+
+            </article>
+          </div>
+        </div>
+
+        <div class="text-center item">
+          <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
+            <article>
+              <header class="entry-header">
+                <div class="entry-thumbnail">
+                  <img src="../../assets/home/images/blog1.jpg" alt="">
+
+                </div>
+                <div class="entry-date">25 November 2014</div>
+                <h2 class="entry-title">
+                  <a href="#">Lorem ipsum dolor sit amet</a>
+                </h2>
+              </header>
+
+              <div class="entry-content">
+                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.</P>
+                <a class="btn btn-primary" href="#">BUY NOW</a>
+              </div>
+
+
+            </article>
+          </div>
+        </div>
+        <div class="text-center item">
+          <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
+            <article>
+              <header class="entry-header">
+                <div class="entry-thumbnail">
+                  <img src="../../assets/home/images/blog2.jpg" alt="">
+
+                </div>
+                <div class="entry-date">25 November 2014</div>
+                <h2 class="entry-title">
+                  <a href="#">Lorem ipsum dolor sit amet</a>
+                </h2>
+              </header>
+
+              <div class="entry-content">
+                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.</P>
+                <a class="btn btn-primary" href="#">BUY NOW</a>
+              </div>
+
+
+            </article>
+          </div>
+        </div>
+        <div class="text-center item">
+          <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
+            <article>
+              <header class="entry-header">
+                <div class="entry-thumbnail">
+                  <img src="../../assets/home/images/blog3.jpg" alt="">
+
+                </div>
+                <div class="entry-date">25 November 2014</div>
+                <h2 class="entry-title">
+                  <a href="#">Lorem ipsum dolor sit amet</a>
+                </h2>
+              </header>
+
+              <div class="entry-content">
+                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.</P>
+                <a class="btn btn-primary" href="#">BUY NOW</a>
+              </div>
+
+
+            </article>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+<!--/#blog-->
+
+<section id="testimonial">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title text-center wow fadeInDown">testimonials</h2>
+      <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+        <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="panel-one">
+          <div class="user-img">
+            <img alt="" src="../../assets/home/images/testimonail_1.jpg">
+          </div>
+          <div class="testi-info">
+            <h4>Jonathon Andrew</h4>
+            <h5>Lorem ipsum dolor sit amet</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore
+              magna aliqua Lorem ipsum dolor sit amet, consectetur.</p>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-sm-6">
+        <div class="panel-one">
+          <div class="user-img">
+            <img alt="" src="../../assets/home/images/testimonail_2.jpg">
+          </div>
+          <div class="testi-info">
+            <h4>Jonathon Andrew</h4>
+            <h5>Lorem ipsum dolor sit amet</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore
+              magna aliqua Lorem ipsum dolor sit amet, consectetur.</p>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-sm-6">
+        <div class="panel-one">
+          <div class="user-img">
+            <img alt="" src="../../assets/home/images/testimonail_3.jpg">
+          </div>
+          <div class="testi-info">
+            <h4>Jonathon Andrew</h4>
+            <h5>Lorem ipsum dolor sit amet</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore
+              magna aliqua Lorem ipsum dolor sit amet, consectetur.</p>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-sm-6">
+        <div class="panel-one">
+          <div class="user-img">
+            <img alt="" src="../../assets/home/images/testimonail_4.jpg">
+          </div>
+          <div class="testi-info">
+            <h4>Jonathon Andrew</h4>
+            <h5>Lorem ipsum dolor sit amet</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore
+              magna aliqua Lorem ipsum dolor sit amet, consectetur.</p>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+</section>
+<!--/#testimonial-->
+
+
+
+<section id="get-in-touch">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title text-center wow fadeInDown">CONTACT US</h2>
+      <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+        <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="address">
+          <h4>Address</h4>
+          <p>Lorem ipsum dolor sit amet, ETX consectetur adipiscing elit,
+            <br> sed do ETX eiusmod tempor incididunt ut labore et</p>
+        </div>
+
+        <div class="address">
+          <h4>Phone </h4>
+          <p>123-456-7890</p>
+        </div>
+
+        <div class="address">
+          <h4>Email</h4>
+          <p>
+            <a href="#">info@companyname.com </a>
+          </p>
+        </div>
+
+        <div class="address">
+          <h4>Follow Us</h4>
+          <p>
+            <a href="#">
+              <i class="fa fa-facebook"></i>
+            </a> &nbsp;
+            <a href="#">
+              <i class="fa fa-twitter"></i>
+            </a> &nbsp;
+            <a href="#">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+
+        <form action="#" method="post" name="contact-form" id="main-contact-form">
+          <div class="form-group">
+            <input type="text" required placeholder="Name" class="form-control" name="name">
+          </div>
+          <div class="form-group">
+            <input type="email" required placeholder="Email" class="form-control" name="email">
+          </div>
+          <div class="form-group">
+            <input type="text" required placeholder="Subject" class="form-control" name="subject">
+          </div>
+          <div class="form-group">
+            <textarea required placeholder="Message" rows="8" class="form-control" name="message"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">SUBMIT</button>
+        </form>
+      </div>
+
+
+    </div>
+
+
+  </div>
+</section>
+<!--/#get-in-touch-->
+
+
+
+
+<footer id="footer">
+
+  <a href="#" class="back-to-top">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+
+  <div class="container text-center">
+    All rights reserved © 2016 |
+    <a href="http://www.pfind.com/goodies/bizexpress/">BizExpress Template</a> from
+    <a href="http://www.pfind.com/goodies/">pFind.com</a>
+  </div>
+</footer>
+<!--/#footer-->
